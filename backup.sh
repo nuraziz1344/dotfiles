@@ -4,6 +4,7 @@
 
 echo "Backing up configurations..."
 cp -v ~/.config/hypr/UserConfigs/UserKeybinds.conf ~/dotfiles/hypr/UserConfigs/
+cp -v ~/.config/hypr/UserConfigs/WindowRules.conf ~/dotfiles/hypr/UserConfigs/
 cp -v ~/.config/waybar/configs/TOP-Default-Laptop ~/dotfiles/waybar/configs/
 cp -v ~/.config/waybar/ModulesGroups ~/dotfiles/waybar/
 cp -v ~/.config/waybar/style/Dark-Half-Moon.css ~/dotfiles/waybar/style/

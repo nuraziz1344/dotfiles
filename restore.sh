@@ -4,6 +4,7 @@
 
 echo "Restoring Hyprland UserKeybinds..."
 cp -v hypr/UserConfigs/UserKeybinds.conf ~/.config/hypr/UserConfigs/
+cp -v hypr/UserConfigs/WindowRules.conf ~/.config/hypr/UserConfigs/
 
 echo "Restoring Waybar customizations..."
 cp -v waybar/configs/TOP-Default-Laptop ~/.config/waybar/configs/
