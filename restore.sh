@@ -5,6 +5,12 @@
 echo "Restoring Hyprland UserKeybinds..."
 cp -v hypr/UserConfigs/UserKeybinds.conf ~/.config/hypr/UserConfigs/
 cp -v hypr/UserConfigs/WindowRules.conf ~/.config/hypr/UserConfigs/
+cp -v hypr/UserConfigs/Startup_Apps.conf ~/.config/hypr/UserConfigs/
+cp -v hypr/hypridle.conf ~/.config/hypr/
+cp -v hypr/hypridle-ac.conf ~/.config/hypr/
+cp -v hypr/hypridle-battery.conf ~/.config/hypr/
+cp -v hypr/UserScripts/BatteryMonitor.sh ~/.config/hypr/UserScripts/
+cp -v hypr/UserScripts/PowerStateMonitor.sh ~/.config/hypr/UserScripts/
 
 echo "Restoring Waybar customizations..."
 cp -v waybar/configs/TOP-Default-Laptop ~/.config/waybar/configs/
