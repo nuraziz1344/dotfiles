@@ -11,6 +11,7 @@ cp -v hypr/hypridle-ac.conf ~/.config/hypr/
 cp -v hypr/hypridle-battery.conf ~/.config/hypr/
 cp -v hypr/UserScripts/BatteryMonitor.sh ~/.config/hypr/UserScripts/
 cp -v hypr/UserScripts/PowerStateMonitor.sh ~/.config/hypr/UserScripts/
+cp -v hypr/UserScripts/CustomScreenshot.sh ~/.config/hypr/UserScripts/
 
 echo "Restoring Waybar customizations..."
 cp -v waybar/configs/TOP-Default-Laptop ~/.config/waybar/configs/
